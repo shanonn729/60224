@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="iU/U0#t`aP/3pT8:w(Kk" x="0" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="xg^E[}py3enIHhbe)tFG">mySprite</variable><variable type="KIND_SpriteKind" id="6?bgBbolE)xj[:)UAly7">Player</variable><variable type="KIND_SpriteKind" id="9|Sl0GoYSA$1]U1vY$o[">Projectile</variable><variable type="KIND_SpriteKind" id="hkrBjuQvs/Ea`]p*8`5~">Food</variable><variable type="KIND_SpriteKind" id="l*2q9T|V6L(+uU9oNS=@">Enemy</variable></variables><block type="pxt-on-start" id="$$T!]B_c]o:{rgmUKWNx" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="i;JldGrmB7q?}./B3~7%"><value name="color"><shadow type="colorindexpicker" id="_712W-Jnjh+V5B=X?%xt"><field name="index">2</field></shadow></value><next><block type="variables_set" id="Eviu)5JBA!6?aWc9O}Wd"><field name="VAR" id="xg^E[}py3enIHhbe)tFG">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="?=vvx@!VDAvjmx;X-TMS"><value name="img"><shadow type="screen_image_picker" id="Euw,-S`hQbey_PERu!sp"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . f f f . . . f f f . . . . 
+. . . . f f . . . f f . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . f . . . . . f . . . . . . 
+. . . . f . . . f . . . . . . . 
+. . . . . f f f . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="!+lT+X.p!)5n(4{R+~v3"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="C0JC3@!55ZqXKdzGiK4f"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="Ub3avl0Yk-]1Abf3)mi1"><field name="VAR" id="xg^E[}py3enIHhbe)tFG">mySprite</field></block></value></block></next></block></next></block></statement></block></xml>
